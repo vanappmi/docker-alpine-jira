@@ -5,7 +5,7 @@ ARG JIRA_HOME=/var/atlassian/jira
 ARG JIRA_INSTALL=/opt/atlassian/jira
 ARG RUN_USER=jira
 ARG RUN_GROUP=jira
-ARG JIRA_DOWNLOAD_URI=https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-core-${JIRA_VERSION}.tar.gz
+ARG JIRA_DOWNLOAD_URI=https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-${JIRA_VERSION}.tar.gz
 ARG POSTGRES_DRIVER_VERSION=42.1.4
 ARG MYSQL_DRIVER_VERSION=5.1.45
 
